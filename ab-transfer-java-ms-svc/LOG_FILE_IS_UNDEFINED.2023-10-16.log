@@ -1,0 +1,94 @@
+[34m09:25:22.684[main] INFO  c.a.n.transfer.service.BooStrapApp - Starting BooStrapApp on LAPTOP-N9NNG75B with PID 19168 (C:\Users\User\Downloads\ab-transfer-java-ms-svc\ab-transfer-java-ms-svc\target\classes started by User in C:\Users\User\Downloads\ab-transfer-java-ms-svc)
+[0;39m
+[34m09:25:22.687[main] INFO  c.a.n.transfer.service.BooStrapApp - No active profile set, falling back to default profiles: default
+[0;39m
+[31m09:25:22.766[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m09:25:23.406[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m
+[34m09:25:23.407[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m09:25:23.460[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m09:25:23.914[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[0;39m
+[34m09:25:23.922[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[0;39m
+[34m09:25:23.923[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m09:25:23.923[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m09:25:23.997[main] INFO  o.a.c.c.C.[.[localhost].[/transfer] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m09:25:23.997[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1261 ms
+[0;39m
+[34m09:25:24.119[main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[0;39m
+[34m09:25:24.173[cluster-ClusterId{value='652cb42c3fe52869c89b9fe4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:62}] to localhost:27017
+[0;39m
+[34m09:25:24.177[cluster-ClusterId{value='652cb42c3fe52869c89b9fe4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2362500}
+[0;39m
+[34m09:25:24.361[main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:63}] to localhost:27017
+[0;39m
+[34m09:25:25.089[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m09:25:25.259[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[0;39m
+[34m09:25:25.288[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path '/transfer'
+[0;39m
+[34m09:25:25.588[main] INFO  c.a.n.transfer.service.BooStrapApp - Started BooStrapApp in 3.301 seconds (JVM running for 3.662)
+[0;39m
+[34m09:31:46.463[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m09:31:46.467[SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:63}] to localhost:27017 because the pool has been closed.
+[0;39m
+[34m09:31:48.805[main] INFO  c.a.n.transfer.service.BooStrapApp - Starting BooStrapApp on LAPTOP-N9NNG75B with PID 25936 (C:\Users\User\Downloads\ab-transfer-java-ms-svc\ab-transfer-java-ms-svc\target\classes started by User in C:\Users\User\Downloads\ab-transfer-java-ms-svc)
+[0;39m
+[34m09:31:48.807[main] INFO  c.a.n.transfer.service.BooStrapApp - No active profile set, falling back to default profiles: default
+[0;39m
+[31m09:31:48.903[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m09:31:49.518[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m
+[34m09:31:49.519[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m09:31:49.572[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m09:31:50.059[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[0;39m
+[34m09:31:50.066[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[0;39m
+[34m09:31:50.066[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m09:31:50.066[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m09:31:50.136[main] INFO  o.a.c.c.C.[.[localhost].[/transfer] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m09:31:50.136[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1269 ms
+[0;39m
+[34m09:31:50.234[main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[0;39m
+[34m09:31:50.277[cluster-ClusterId{value='652cb5aea401673673f315bf', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:64}] to localhost:27017
+[0;39m
+[34m09:31:50.281[cluster-ClusterId{value='652cb5aea401673673f315bf', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2529600}
+[0;39m
+[34m09:31:50.437[main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:65}] to localhost:27017
+[0;39m
+[34m09:31:51.163[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m09:31:51.354[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[0;39m
+[34m09:31:51.390[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path '/transfer'
+[0;39m
+[34m09:31:51.720[main] INFO  c.a.n.transfer.service.BooStrapApp - Started BooStrapApp in 3.241 seconds (JVM running for 3.54)
+[0;39m
+[34m18:13:24.153[http-nio-8000-exec-5] INFO  o.a.c.c.C.[.[localhost].[/transfer] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m18:13:24.153[http-nio-8000-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m18:13:24.174[http-nio-8000-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+[0;39m
+[34m18:48:37.131[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m18:48:37.135[SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:65}] to localhost:27017 because the pool has been closed.
+[0;39m
